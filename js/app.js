@@ -9,9 +9,10 @@ function loadMasterQuiz() {
   
   if (stored) {
     const parsed = JSON.parse(stored);
-    // If stored has fewer than 100 questions but default has >200 → replace automatically
-    if (parsed.length < 100 && defaultQuiz.length > 200) {
-      if (confirm("⚠️ Your saved question bank appears to be incomplete (only " + parsed.length + " questions).\nLoad the full default bank (over 300 questions)? All current user answers will be reset.")) {
+    // IMPROVED: Also prompt if stored is significantly smaller than default (difference > 50)
+    const diff = defaultQuiz.length - parsed.length;
+    if ((parsed.length < 100 && defaultQuiz.length > 200) || diff > 50) {
+      if (confirm(`⚠️ Your saved question bank has only ${parsed.length} questions, but the full default bank has ${defaultQuiz.length} questions.\nLoad the full default bank? All current user answers will be reset.`)) {
         MASTER_QUIZ = defaultQuiz.map((q, idx) => ({ ...q, id: idx + 1 }));
         saveMasterQuiz();
         // Reset all user answers
@@ -46,13 +47,13 @@ function saveMasterQuiz() {
   localStorage.setItem("ochem_master_quiz_v8", JSON.stringify(MASTER_QUIZ));
 }
 
-// Reset to the original 300+ questions from data.js
+// Reset to the original 700+ questions from data.js
 function resetToDefaultQuestions() {
   if (!window.quizData || !Array.isArray(window.quizData)) {
     alert("No default questions found in data.js");
     return;
   }
-  if (confirm("⚠️ RESET TO DEFAULT QUESTIONS: This will replace all existing MCQs with the original 300+ questions and erase ALL user progress (answers, attempts, scores).\nAre you absolutely sure?")) {
+  if (confirm("⚠️ RESET TO DEFAULT QUESTIONS: This will replace all existing MCQs with the original 700+ questions and erase ALL user progress (answers, attempts, scores).\nAre you absolutely sure?")) {
     MASTER_QUIZ = window.quizData.map((q, idx) => ({ ...q, id: idx + 1 }));
     saveMasterQuiz();
     // Reset all user data
