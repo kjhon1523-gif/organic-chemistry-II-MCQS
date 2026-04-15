@@ -5255,6 +5255,2285 @@ window.quizData = [
     "category": "Additional Mixed",
     "explanation": "Oppenauer oxidation (alcohol to ketone using Al(OiPr)₃/acetone) is the reverse of MPV reduction."
   },
+  
+  {
+    "id": 527,
+    "text": "The mechanism of nucleophilic aromatic substitution in which the addition of nucleophile is followed by elimination of a leaving group is called:",
+    "options": [
+      "SN1",
+      "SN2",
+      "SNAr (addition-elimination)",
+      "Benzyne mechanism"
+    ],
+    "correct": 2,
+    "category": "SNAr",
+    "explanation": "SNAr (addition-elimination) proceeds via a Meisenheimer σ-complex intermediate."
+  },
+  {
+    "id": 528,
+    "text": "Which of the following is the most reactive towards nucleophilic aromatic substitution?",
+    "options": [
+      "Chlorobenzene",
+      "2,4-Dinitrochlorobenzene",
+      "4-Nitrochlorobenzene",
+      "2-Nitrochlorobenzene"
+    ],
+    "correct": 1,
+    "category": "SNAr",
+    "explanation": "Two ortho/para nitro groups strongly activate via resonance and induction; 2,4-dinitrochlorobenzene is most reactive."
+  },
+  {
+    "id": 529,
+    "text": "The benzyne mechanism (elimination-addition) in nucleophilic aromatic substitution is favoured by:",
+    "options": [
+      "Strong electron-withdrawing groups",
+      "Presence of leaving group ortho to a nitro group",
+      "Absence of ortho/para nitro groups and strong bases",
+      "Polar aprotic solvents only"
+    ],
+    "correct": 2,
+    "category": "SNAr",
+    "explanation": "Benzyne pathway occurs when no activating groups are present, under strong base/high temperature."
+  },
+  {
+    "id": 530,
+    "text": "In SNAr reaction, the rate-determining step is:",
+    "options": [
+      "Formation of σ-complex (Meisenheimer complex)",
+      "Elimination of leaving group",
+      "Attack of nucleophile on benzyne",
+      "Proton transfer"
+    ],
+    "correct": 0,
+    "category": "SNAr",
+    "explanation": "Formation of the negatively charged Meisenheimer complex is slow and rate-determining."
+  },
+  {
+    "id": 531,
+    "text": "Which leaving group is most easily displaced in nucleophilic aromatic substitution?",
+    "options": [
+      "–Cl",
+      "–Br",
+      "–I",
+      "–F"
+    ],
+    "correct": 3,
+    "category": "SNAr",
+    "explanation": "In activated SNAr, fluorine is the best leaving group due to strong σ-complex stabilization; order F > Cl > Br > I."
+  },
+  {
+    "id": 532,
+    "text": "The intermediate formed in SNAr reaction is stabilized by:",
+    "options": [
+      "Electron-donating groups",
+      "Electron-withdrawing groups at ortho/para positions",
+      "Alkyl groups",
+      "Meta substituents"
+    ],
+    "correct": 1,
+    "category": "SNAr",
+    "explanation": "Electron-withdrawing groups (especially ortho/para) delocalize the negative charge of the σ-complex."
+  },
+  {
+    "id": 533,
+    "text": "The reaction of an aldehyde or ketone with another carbonyl compound in the presence of base to form a β-hydroxy carbonyl compound is called:",
+    "options": [
+      "Perkin reaction",
+      "Aldol condensation",
+      "Michael addition",
+      "Knoevenagel condensation"
+    ],
+    "correct": 1,
+    "category": "Unsaturated Carbonyls",
+    "explanation": "Aldol reaction gives β-hydroxy carbonyl; dehydration gives α,β-unsaturated carbonyl."
+  },
+  {
+    "id": 534,
+    "text": "Which of the following is an example of a Michael acceptor?",
+    "options": [
+      "Ethyl acetate",
+      "Acrolein",
+      "Acetone",
+      "Ethanol"
+    ],
+    "correct": 1,
+    "category": "Unsaturated Carbonyls",
+    "explanation": "Michael acceptors are α,β-unsaturated carbonyls; acrolein (H₂C=CH–CHO) is one."
+  },
+  {
+    "id": 535,
+    "text": "The Diels–Alder reaction is a:",
+    "options": [
+      "[2+2] cycloaddition",
+      "[4+2] cycloaddition",
+      "[3+2] cycloaddition",
+      "Sigmatropic rearrangement"
+    ],
+    "correct": 1,
+    "category": "Pericyclic Reactions",
+    "explanation": "Diels–Alder is a [4+2] cycloaddition of a conjugated diene and a dienophile."
+  },
+  {
+    "id": 536,
+    "text": "The product of aldol condensation of acetaldehyde (followed by dehydration) is:",
+    "options": [
+      "3-Hydroxybutanal",
+      "Crotonaldehyde",
+      "But-2-enal",
+      "Both b and c"
+    ],
+    "correct": 3,
+    "category": "Unsaturated Carbonyls",
+    "explanation": "Crotonaldehyde and but-2-enal are the same compound (trans-but-2-enal)."
+  },
+  {
+    "id": 537,
+    "text": "Perkin reaction involves condensation of an aromatic aldehyde with:",
+    "options": [
+      "Acetic anhydride in presence of sodium acetate",
+      "Malonic acid",
+      "Ethyl acetoacetate",
+      "Acetone"
+    ],
+    "correct": 0,
+    "category": "Unsaturated Carbonyls",
+    "explanation": "Perkin reaction: aromatic aldehyde + acid anhydride + sodium acetate → cinnamic acid."
+  },
+  {
+    "id": 538,
+    "text": "Michael addition is a:",
+    "options": [
+      "Nucleophilic addition to α,β-unsaturated carbonyl",
+      "Electrophilic addition to alkene",
+      "Free radical addition",
+      "Pericyclic reaction"
+    ],
+    "correct": 0,
+    "category": "Unsaturated Carbonyls",
+    "explanation": "Michael addition is conjugate nucleophilic addition to the β-carbon of an α,β-unsaturated carbonyl."
+  },
+  {
+    "id": 539,
+    "text": "Which of the following is a pericyclic reaction?",
+    "options": [
+      "SN2 reaction",
+      "E2 elimination",
+      "Cope rearrangement",
+      "Free radical halogenation"
+    ],
+    "correct": 2,
+    "category": "Pericyclic Reactions",
+    "explanation": "Cope rearrangement is a [3,3]-sigmatropic shift, a pericyclic reaction."
+  },
+  {
+    "id": 540,
+    "text": "In electrocyclic reactions, the ring closure of 1,3-butadiene under thermal conditions is:",
+    "options": [
+      "Conrotatory",
+      "Disrotatory",
+      "Antarafacial",
+      "Suprafacial"
+    ],
+    "correct": 1,
+    "category": "Pericyclic Reactions",
+    "explanation": "For 4π-electron system under thermal conditions, ring closure is disrotatory."
+  },
+  {
+    "id": 541,
+    "text": "The Woodward–Hoffmann rules state that a [4+2] cycloaddition under thermal conditions is:",
+    "options": [
+      "Suprafacial-suprafacial (allowed)",
+      "Antarafacial-antrafacial (allowed)",
+      "Suprafacial-antrafacial (forbidden)",
+      "All of the above"
+    ],
+    "correct": 0,
+    "category": "Pericyclic Reactions",
+    "explanation": "Thermal [4+2] is allowed suprafacial-suprafacial (normal Diels–Alder)."
+  },
+  {
+    "id": 542,
+    "text": "Sigmatropic rearrangement of [1,3] shift under thermal conditions is:",
+    "options": [
+      "Suprafacial allowed",
+      "Antarafacial allowed",
+      "Forbidden",
+      "Depends on solvent"
+    ],
+    "correct": 1,
+    "category": "Pericyclic Reactions",
+    "explanation": "Thermal [1,3] sigmatropic shift is allowed antarafacially (but geometrically difficult)."
+  },
+  {
+    "id": 543,
+    "text": "Which of the following is an example of a sigmatropic reaction?",
+    "options": [
+      "Claisen rearrangement",
+      "Aldol reaction",
+      "Friedel-Crafts alkylation",
+      "Cannizzaro reaction"
+    ],
+    "correct": 0,
+    "category": "Pericyclic Reactions",
+    "explanation": "Claisen rearrangement is a [3,3]-sigmatropic shift."
+  },
+  {
+    "id": 544,
+    "text": "Neighbouring group participation leads to:",
+    "options": [
+      "Retention of configuration",
+      "Inversion of configuration",
+      "Racemization",
+      "No change in stereochemistry"
+    ],
+    "correct": 0,
+    "category": "Neighbouring Group Effect",
+    "explanation": "Double inversion (or cyclic intermediate) results in net retention of configuration."
+  },
+  {
+    "id": 545,
+    "text": "Anchimeric assistance is most commonly observed in:",
+    "options": [
+      "SN1 reactions",
+      "SN2 reactions",
+      "E1 reactions",
+      "Electrophilic addition"
+    ],
+    "correct": 1,
+    "category": "Neighbouring Group Effect",
+    "explanation": "Neighbouring group participation often accelerates SN2-type substitutions via cyclic intermediates."
+  },
+  {
+    "id": 546,
+    "text": "Which functional group can act as a neighbouring group in nucleophilic substitution?",
+    "options": [
+      "–OH",
+      "–COOH",
+      "–NH₂",
+      "All of the above"
+    ],
+    "correct": 3,
+    "category": "Neighbouring Group Effect",
+    "explanation": "Lone pair-containing groups (OH, COOH, NH₂) can all participate as neighboring groups."
+  },
+  {
+    "id": 547,
+    "text": "The term “neighbouring group effect” refers to:",
+    "options": [
+      "Participation of a nearby group in the reaction centre",
+      "Steric hindrance by adjacent groups",
+      "Inductive effect of substituents",
+      "Resonance effect"
+    ],
+    "correct": 0,
+    "category": "Neighbouring Group Effect",
+    "explanation": "It is the intramolecular assistance by a group adjacent to the reaction center."
+  },
+  {
+    "id": 548,
+    "text": "Wilkinson’s catalyst is used for:",
+    "options": [
+      "Hydrogenation of alkenes",
+      "Oxidation of alcohols",
+      "Hydroformylation",
+      "Polymerisation"
+    ],
+    "correct": 0,
+    "category": "Transition Metal Catalysis",
+    "explanation": "Wilkinson's catalyst (RhCl(PPh₃)₃) is a homogeneous hydrogenation catalyst for alkenes."
+  },
+  {
+    "id": 549,
+    "text": "The composition of Wilkinson’s catalyst is:",
+    "options": [
+      "RhCl(PPh₃)₃",
+      "Pd(PPh₃)₄",
+      "Ni(CO)₄",
+      "Co₂(CO)₈"
+    ],
+    "correct": 0,
+    "category": "Transition Metal Catalysis",
+    "explanation": "Wilkinson's catalyst is chlorotris(triphenylphosphine)rhodium(I)."
+  },
+  {
+    "id": 550,
+    "text": "Oxo process (hydroformylation) uses which catalyst?",
+    "options": [
+      "Wilkinson’s catalyst",
+      "Octacarbonyldicobalt [Co₂(CO)₈]",
+      "Palladium on carbon",
+      "Nickel boride"
+    ],
+    "correct": 1,
+    "category": "Transition Metal Catalysis",
+    "explanation": "Hydroformylation traditionally uses Co₂(CO)₈; modern processes may use rhodium complexes."
+  },
+  {
+    "id": 551,
+    "text": "Hydroformylation adds the following to an alkene:",
+    "options": [
+      "H₂ and CO",
+      "H₂O and CO",
+      "HCHO",
+      "HCOOH"
+    ],
+    "correct": 0,
+    "category": "Transition Metal Catalysis",
+    "explanation": "Hydroformylation adds H and –CHO (from H₂+CO) to give an aldehyde."
+  },
+  {
+    "id": 552,
+    "text": "A reaction that gives one stereoisomer in preference to others is called:",
+    "options": [
+      "Stereospecific",
+      "Stereoselective",
+      "Regioselective",
+      "Chemoselective"
+    ],
+    "correct": 1,
+    "category": "Stereoselective & Stereospecific",
+    "explanation": "Stereoselective: one stereoisomer is formed preferentially."
+  },
+  {
+    "id": 553,
+    "text": "A stereospecific reaction is one in which:",
+    "options": [
+      "Different stereoisomers of reactant give different stereoisomers of product",
+      "Only one product is formed",
+      "Product is always racemic",
+      "No stereochemistry is involved"
+    ],
+    "correct": 0,
+    "category": "Stereoselective & Stereospecific",
+    "explanation": "Stereospecific: the stereochemistry of reactant determines product stereochemistry."
+  },
+  {
+    "id": 554,
+    "text": "The addition of Br₂ to an alkene is an example of:",
+    "options": [
+      "Stereoselective reaction",
+      "Stereospecific reaction",
+      "Both a and b",
+      "Neither"
+    ],
+    "correct": 2,
+    "category": "Stereoselective & Stereospecific",
+    "explanation": "Anti addition is stereospecific (different alkene stereoisomers give different dibromides) and stereoselective (only anti product)."
+  },
+  {
+    "id": 555,
+    "text": "Which of the following is a stereospecific reaction?",
+    "options": [
+      "SN2 reaction",
+      "SN1 reaction",
+      "E1 reaction",
+      "Free radical substitution"
+    ],
+    "correct": 0,
+    "category": "Stereoselective & Stereospecific",
+    "explanation": "SN2 proceeds with inversion of configuration, making it stereospecific."
+  },
+  {
+    "id": 556,
+    "text": "The correct order of aromaticity among pyrrole, furan and thiophene is:",
+    "options": [
+      "Thiophene > Pyrrole > Furan",
+      "Furan > Pyrrole > Thiophene",
+      "Pyrrole > Thiophene > Furan",
+      "Thiophene > Furan > Pyrrole"
+    ],
+    "correct": 0,
+    "category": "Five-Membered Heterocycles",
+    "explanation": "Aromaticity: thiophene (most), then pyrrole, then furan (least)."
+  },
+  {
+    "id": 557,
+    "text": "Pyrrole is less basic than pyridine because:",
+    "options": [
+      "Nitrogen lone pair is involved in aromatic sextet",
+      "Pyrrole has electron-withdrawing group",
+      "Pyrrole is not aromatic",
+      "Nitrogen is sp² hybridised"
+    ],
+    "correct": 0,
+    "category": "Five-Membered Heterocycles",
+    "explanation": "In pyrrole, the lone pair is part of the aromatic π system, making it non-basic."
+  },
+  {
+    "id": 558,
+    "text": "The electrophilic substitution in pyrrole occurs preferentially at:",
+    "options": [
+      "C-2 position",
+      "C-3 position",
+      "Nitrogen atom",
+      "C-4 position"
+    ],
+    "correct": 0,
+    "category": "Five-Membered Heterocycles",
+    "explanation": "Pyrrole undergoes electrophilic substitution at the α-carbon (C-2)."
+  },
+  {
+    "id": 559,
+    "text": "Which heterocycle is stable to strong acids?",
+    "options": [
+      "Pyrrole",
+      "Furan",
+      "Thiophene",
+      "All are equally stable"
+    ],
+    "correct": 2,
+    "category": "Five-Membered Heterocycles",
+    "explanation": "Thiophene is resistant to strong acids; furan and pyrrole polymerize or ring-open."
+  },
+  {
+    "id": 560,
+    "text": "Furan undergoes Diels–Alder reaction as a diene because:",
+    "options": [
+      "It is aromatic",
+      "It has conjugated double bonds and can lose aromaticity",
+      "It has oxygen lone pair",
+      "It is electron-rich"
+    ],
+    "correct": 1,
+    "category": "Five-Membered Heterocycles",
+    "explanation": "Furan acts as a diene; the product is non-aromatic but stable, driving the reaction."
+  },
+  {
+    "id": 561,
+    "text": "The heteroatom in thiophene is:",
+    "options": [
+      "Oxygen",
+      "Nitrogen",
+      "Sulphur",
+      "Selenium"
+    ],
+    "correct": 2,
+    "category": "Five-Membered Heterocycles",
+    "explanation": "Thiophene contains a sulfur atom in the five-membered ring."
+  },
+  {
+    "id": 562,
+    "text": "Which of the following is not a five membered heterocycle?",
+    "options": [
+      "Pyrrole",
+      "Furan",
+      "Thiophene",
+      "Pyridine"
+    ],
+    "correct": 3,
+    "category": "Five-Membered Heterocycles",
+    "explanation": "Pyridine is a six-membered heterocycle."
+  },
+  {
+    "id": 563,
+    "text": "Pyridine is a weaker base than aliphatic amines because:",
+    "options": [
+      "Nitrogen lone pair is in sp² orbital",
+      "Lone pair is delocalised into the ring",
+      "It is aromatic",
+      "Both a and c"
+    ],
+    "correct": 0,
+    "category": "Six-Membered Heterocycles",
+    "explanation": "The sp² hybridized lone pair is held more tightly, making pyridine less basic (pKa ~5.2)."
+  },
+  {
+    "id": 564,
+    "text": "Electrophilic substitution in pyridine occurs at:",
+    "options": [
+      "C-2 position",
+      "C-3 position",
+      "C-4 position",
+      "Both 2 and 4"
+    ],
+    "correct": 1,
+    "category": "Six-Membered Heterocycles",
+    "explanation": "Pyridine is deactivated and meta-directing; electrophiles attack C-3."
+  },
+  {
+    "id": 565,
+    "text": "Nucleophilic substitution in pyridine is easier at:",
+    "options": [
+      "C-2 and C-4",
+      "C-3",
+      "C-5",
+      "None"
+    ],
+    "correct": 0,
+    "category": "Six-Membered Heterocycles",
+    "explanation": "Pyridine undergoes nucleophilic substitution at positions 2 and 4 due to electron deficiency."
+  },
+  {
+    "id": 566,
+    "text": "Pyridine is isoelectronic with:",
+    "options": [
+      "Benzene",
+      "Naphthalene",
+      "Pyrrole",
+      "Furan"
+    ],
+    "correct": 0,
+    "category": "Six-Membered Heterocycles",
+    "explanation": "Pyridine has the same number of π electrons (6) as benzene."
+  },
+  {
+    "id": 567,
+    "text": "Which of the following is true about pyridine?",
+    "options": [
+      "It is a tertiary amine",
+      "It is a strong base",
+      "It undergoes Friedel-Crafts reaction readily",
+      "It is less aromatic than benzene"
+    ],
+    "correct": 0,
+    "category": "Six-Membered Heterocycles",
+    "explanation": "Pyridine is a tertiary amine (N bonded to three carbons)."
+  },
+  {
+    "id": 568,
+    "text": "The pKa of pyridine is approximately:",
+    "options": [
+      "5.2",
+      "10.8",
+      "0.8",
+      "15.7"
+    ],
+    "correct": 0,
+    "category": "Six-Membered Heterocycles",
+    "explanation": "Pyridinium ion has pKa ≈ 5.2."
+  },
+  {
+    "id": 569,
+    "text": "Indole is a fused heterocycle containing:",
+    "options": [
+      "Benzene + pyrrole",
+      "Benzene + pyridine",
+      "Benzene + furan",
+      "Benzene + thiophene"
+    ],
+    "correct": 0,
+    "category": "Higher Heterocycles",
+    "explanation": "Indole consists of benzene fused to pyrrole."
+  },
+  {
+    "id": 570,
+    "text": "Electrophilic substitution in indole occurs at:",
+    "options": [
+      "C-2",
+      "C-3",
+      "C-4",
+      "C-5"
+    ],
+    "correct": 1,
+    "category": "Higher Heterocycles",
+    "explanation": "Electrophiles attack the 3-position (pyrrole ring) of indole."
+  },
+  {
+    "id": 571,
+    "text": "Quinoline is prepared by:",
+    "options": [
+      "Skraup synthesis",
+      "Fischer indole synthesis",
+      "Paal-Knorr synthesis",
+      "Hantzsch synthesis"
+    ],
+    "correct": 0,
+    "category": "Higher Heterocycles",
+    "explanation": "Skraup synthesis (aniline + glycerol + H₂SO₄ + nitrobenzene) gives quinoline."
+  },
+  {
+    "id": 572,
+    "text": "Isoquinoline differs from quinoline in the position of:",
+    "options": [
+      "Nitrogen atom",
+      "Double bonds",
+      "Aromaticity",
+      "Substituent effect"
+    ],
+    "correct": 0,
+    "category": "Higher Heterocycles",
+    "explanation": "In isoquinoline, nitrogen is at position 2; in quinoline, at position 1."
+  },
+  {
+    "id": 573,
+    "text": "The Skraup synthesis uses which starting materials?",
+    "options": [
+      "Aniline + glycerol + H₂SO₄ + nitrobenzene",
+      "Aniline + acetaldehyde",
+      "Benzaldehyde + ammonia",
+      "Phenol + formaldehyde"
+    ],
+    "correct": 0,
+    "category": "Higher Heterocycles",
+    "explanation": "Skraup: aniline, glycerol, conc. H₂SO₄, and an oxidizing agent like nitrobenzene."
+  },
+  {
+    "id": 574,
+    "text": "Which of the following alkaloids contains an indole nucleus?",
+    "options": [
+      "Quinine",
+      "Reserpine",
+      "Atropine",
+      "Morphine"
+    ],
+    "correct": 1,
+    "category": "Higher Heterocycles",
+    "explanation": "Reserpine is an indole alkaloid; quinine is quinoline, atropine is tropane, morphine is phenanthrene."
+  },
+  {
+    "id": 575,
+    "text": "The number of chiral centres in glucose is:",
+    "options": [
+      "2",
+      "3",
+      "4",
+      "5"
+    ],
+    "correct": 2,
+    "category": "Carbohydrates",
+    "explanation": "D-Glucose has four chiral carbons (C2, C3, C4, C5)."
+  },
+  {
+    "id": 576,
+    "text": "Mutarotation of glucose refers to:",
+    "options": [
+      "Change in specific rotation due to anomerisation",
+      "Racemisation",
+      "Epimerisation",
+      "Glycoside formation"
+    ],
+    "correct": 0,
+    "category": "Carbohydrates",
+    "explanation": "Mutarotation is the interconversion of α and β anomers, causing change in optical rotation."
+  },
+  {
+    "id": 577,
+    "text": "The glycosidic linkage in sucrose is:",
+    "options": [
+      "α-1,4",
+      "β-1,4",
+      "α-1,β-2",
+      "α-1,6"
+    ],
+    "correct": 2,
+    "category": "Carbohydrates",
+    "explanation": "Sucrose has an α-1,2 linkage between glucose (α) and fructose (β)."
+  },
+  {
+    "id": 578,
+    "text": "Killiani–Fischer synthesis is used for:",
+    "options": [
+      "Chain lengthening of aldoses",
+      "Chain shortening of aldoses",
+      "Conversion of aldose to ketose",
+      "Formation of osazones"
+    ],
+    "correct": 0,
+    "category": "Carbohydrates",
+    "explanation": "Killiani-Fischer adds one carbon to an aldose via cyanohydrin."
+  },
+  {
+    "id": 579,
+    "text": "Ruff degradation shortens the carbon chain of an aldose by:",
+    "options": [
+      "One carbon",
+      "Two carbons",
+      "Three carbons",
+      "Four carbons"
+    ],
+    "correct": 0,
+    "category": "Carbohydrates",
+    "explanation": "Ruff degradation removes one carbon from an aldose."
+  },
+  {
+    "id": 580,
+    "text": "Osazone formation is characteristic of:",
+    "options": [
+      "Reducing sugars",
+      "Non-reducing sugars",
+      "Both a and b",
+      "Only polysaccharides"
+    ],
+    "correct": 0,
+    "category": "Carbohydrates",
+    "explanation": "Only reducing sugars (with free aldehyde or ketone) form osazones with phenylhydrazine."
+  },
+  {
+    "id": 581,
+    "text": "Starch is composed of:",
+    "options": [
+      "Amylose and amylopectin",
+      "Glucose and fructose",
+      "Only α-D-glucose",
+      "Both a and c"
+    ],
+    "correct": 3,
+    "category": "Carbohydrates",
+    "explanation": "Starch is a polymer of α-D-glucose, consisting of amylose (linear) and amylopectin (branched)."
+  },
+  {
+    "id": 582,
+    "text": "Cellulose is a polymer of:",
+    "options": [
+      "β-D-glucose",
+      "α-D-glucose",
+      "D-fructose",
+      "D-galactose"
+    ],
+    "correct": 0,
+    "category": "Carbohydrates",
+    "explanation": "Cellulose is made of β-D-glucose units linked by β-1,4 bonds."
+  },
+  {
+    "id": 583,
+    "text": "Saponification of fats yields:",
+    "options": [
+      "Glycerol and fatty acids",
+      "Glycerol and soaps",
+      "Fatty acids only",
+      "Glycerol only"
+    ],
+    "correct": 1,
+    "category": "Lipids",
+    "explanation": "Saponification gives glycerol and soap (sodium or potassium salts of fatty acids)."
+  },
+  {
+    "id": 584,
+    "text": "Hydrogenation of oils converts:",
+    "options": [
+      "Unsaturated fats to saturated fats",
+      "Saturated fats to unsaturated",
+      "Glycerol to fatty acids",
+      "Fats to soaps"
+    ],
+    "correct": 0,
+    "category": "Lipids",
+    "explanation": "Hydrogenation reduces double bonds, converting liquid oils to solid/semi-solid fats."
+  },
+  {
+    "id": 585,
+    "text": "Phospholipids contain:",
+    "options": [
+      "Phosphoric acid, fatty acids, glycerol and a nitrogenous base",
+      "Only fatty acids and glycerol",
+      "Only phosphoric acid and glycerol",
+      "Cholesterol and fatty acids"
+    ],
+    "correct": 0,
+    "category": "Lipids",
+    "explanation": "Phospholipids have a phosphate group, glycerol, fatty acids, and a nitrogenous base (e.g., choline)."
+  },
+  {
+    "id": 586,
+    "text": "Which vitamin is derived from cholesterol?",
+    "options": [
+      "Vitamin A",
+      "Vitamin D",
+      "Vitamin E",
+      "Vitamin K"
+    ],
+    "correct": 1,
+    "category": "Lipids",
+    "explanation": "Vitamin D is synthesized from 7-dehydrocholesterol (a cholesterol derivative)."
+  },
+  {
+    "id": 587,
+    "text": "The saponification value is defined as:",
+    "options": [
+      "mg KOH required to saponify 1 g of fat",
+      "mg NaOH required to neutralise free fatty acids",
+      "g of I₂ absorbed by 100 g fat",
+      "mg KOH required to neutralise free fatty acids"
+    ],
+    "correct": 0,
+    "category": "Lipids",
+    "explanation": "Saponification value is mg KOH needed to saponify 1 g of fat."
+  },
+  {
+    "id": 588,
+    "text": "The isoelectric point of an amino acid is the pH at which:",
+    "options": [
+      "It carries no net charge",
+      "It is most soluble",
+      "It migrates fastest in electric field",
+      "It has maximum positive charge"
+    ],
+    "correct": 0,
+    "category": "Proteins & Nucleic Acids",
+    "explanation": "At the isoelectric point, the amino acid is a neutral zwitterion with zero net charge."
+  },
+  {
+    "id": 589,
+    "text": "The peptide bond is:",
+    "options": [
+      "–CO–NH–",
+      "–CO–O–",
+      "–NH–NH–",
+      "–CS–NH–"
+    ],
+    "correct": 0,
+    "category": "Proteins & Nucleic Acids",
+    "explanation": "Peptide bond is the amide linkage between amino acids."
+  },
+  {
+    "id": 590,
+    "text": "Secondary structure of protein is stabilised by:",
+    "options": [
+      "Hydrogen bonds",
+      "Disulfide bonds",
+      "Hydrophobic interactions",
+      "Peptide bonds"
+    ],
+    "correct": 0,
+    "category": "Proteins & Nucleic Acids",
+    "explanation": "α-Helices and β-sheets are stabilized by hydrogen bonds between backbone NH and CO groups."
+  },
+  {
+    "id": 591,
+    "text": "DNA double helix is held together by:",
+    "options": [
+      "Hydrogen bonds between complementary bases",
+      "Covalent bonds",
+      "Ionic bonds",
+      "Van der Waals forces only"
+    ],
+    "correct": 0,
+    "category": "Proteins & Nucleic Acids",
+    "explanation": "Hydrogen bonds between A=T and G≡C base pairs stabilize the double helix."
+  },
+  {
+    "id": 592,
+    "text": "Which base pairs with adenine in DNA?",
+    "options": [
+      "Thymine",
+      "Uracil",
+      "Guanine",
+      "Cytosine"
+    ],
+    "correct": 0,
+    "category": "Proteins & Nucleic Acids",
+    "explanation": "Adenine (A) pairs with thymine (T) via two hydrogen bonds."
+  },
+  {
+    "id": 593,
+    "text": "Denaturation of protein involves:",
+    "options": [
+      "Loss of secondary and tertiary structure",
+      "Hydrolysis of peptide bonds",
+      "Conversion to amino acids",
+      "Formation of disulfide bonds"
+    ],
+    "correct": 0,
+    "category": "Proteins & Nucleic Acids",
+    "explanation": "Denaturation unfolds the protein, disrupting secondary/tertiary structure without breaking peptide bonds."
+  },
+  {
+    "id": 594,
+    "text": "The Watson-Crick model of DNA has:",
+    "options": [
+      "Two antiparallel strands",
+      "Parallel strands",
+      "Triple helix",
+      "Single strand"
+    ],
+    "correct": 0,
+    "category": "Proteins & Nucleic Acids",
+    "explanation": "DNA is a double helix with two antiparallel strands held by base pairing."
+  },
+  {
+    "id": 595,
+    "text": "Which reagent is used for tosylation of alcohols?",
+    "options": [
+      "Tosyl chloride (p-toluenesulfonyl chloride)",
+      "Acetic anhydride",
+      "Thionyl chloride",
+      "PCl₅"
+    ],
+    "correct": 0,
+    "category": "Organic Reagents",
+    "explanation": "Tosyl chloride converts alcohols to tosylates, good leaving groups."
+  },
+  {
+    "id": 596,
+    "text": "Acetic anhydride is commonly used for:",
+    "options": [
+      "Acetylation",
+      "Methylation",
+      "Ester hydrolysis",
+      "Reduction"
+    ],
+    "correct": 0,
+    "category": "Organic Reagents",
+    "explanation": "Acetic anhydride is an acetylating agent for amines and alcohols."
+  },
+  {
+    "id": 597,
+    "text": "Salicylic acid is used in the synthesis of:",
+    "options": [
+      "Aspirin",
+      "Paracetamol",
+      "Ibuprofen",
+      "Chloramphenicol"
+    ],
+    "correct": 0,
+    "category": "Organic Reagents",
+    "explanation": "Aspirin (acetylsalicylic acid) is made by acetylation of salicylic acid."
+  },
+  {
+    "id": 598,
+    "text": "Cinnamic acid is obtained from:",
+    "options": [
+      "Perkin reaction",
+      "Aldol condensation",
+      "Cannizzaro reaction",
+      "Claisen condensation"
+    ],
+    "correct": 0,
+    "category": "Organic Reagents",
+    "explanation": "Perkin reaction of benzaldehyde with acetic anhydride gives cinnamic acid."
+  },
+  {
+    "id": 599,
+    "text": "Ethyl acetoacetate is used in the synthesis of:",
+    "options": [
+      "Barbiturates",
+      "Pyrazolones",
+      "Quinoline",
+      "All of the above"
+    ],
+    "correct": 3,
+    "category": "Organic Reagents",
+    "explanation": "Ethyl acetoacetate is a versatile intermediate for barbiturates, pyrazolones, quinolines, etc."
+  },
+  {
+    "id": 600,
+    "text": "Dimethylaniline is used as:",
+    "options": [
+      "Coupling component in azo dyes",
+      "Solvent",
+      "Reducing agent",
+      "Oxidising agent"
+    ],
+    "correct": 0,
+    "category": "Organic Reagents",
+    "explanation": "N,N-Dimethylaniline is a common coupling component in azo dye synthesis."
+  },
+  {
+    "id": 601,
+    "text": "Benzaldehyde is obtained by:",
+    "options": [
+      "Oxidation of toluene",
+      "Reduction of benzoic acid",
+      "Hydrolysis of benzal chloride",
+      "All of the above"
+    ],
+    "correct": 3,
+    "category": "Organic Reagents",
+    "explanation": "Benzaldehyde can be prepared by oxidation of toluene, reduction of benzoyl chloride, or hydrolysis of benzal chloride."
+  },
+  {
+    "id": 602,
+    "text": "In SNAr reaction, the Meisenheimer complex is:",
+    "options": [
+      "σ-complex",
+      "π-complex",
+      "Carbene intermediate",
+      "Benzyne"
+    ],
+    "correct": 0,
+    "category": "SNAr",
+    "explanation": "Meisenheimer complex is a σ-adduct (cyclohexadienyl anion)."
+  },
+  {
+    "id": 603,
+    "text": "Which of the following is an α,β-unsaturated carbonyl compound?",
+    "options": [
+      "Acrolein",
+      "Acetone",
+      "Formaldehyde",
+      "Ethyl acetate"
+    ],
+    "correct": 0,
+    "category": "Unsaturated Carbonyls",
+    "explanation": "Acrolein (H₂C=CH–CHO) has a double bond conjugated to carbonyl."
+  },
+  {
+    "id": 604,
+    "text": "Cope rearrangement is a [3,3]-sigmatropic shift. The starting material is:",
+    "options": [
+      "1,5-Diene",
+      "1,3-Diene",
+      "Allyl vinyl ether",
+      "Butadiene"
+    ],
+    "correct": 0,
+    "category": "Pericyclic Reactions",
+    "explanation": "Cope rearrangement involves a 1,5-diene (e.g., 1,5-hexadiene)."
+  },
+  {
+    "id": 605,
+    "text": "Claisen rearrangement involves:",
+    "options": [
+      "Allyl aryl ether → ortho-allyl phenol",
+      "Diels-Alder reaction",
+      "Aldol condensation",
+      "Pinacol rearrangement"
+    ],
+    "correct": 0,
+    "category": "Pericyclic Reactions",
+    "explanation": "Claisen rearrangement of allyl aryl ethers gives ortho-allyl phenols after tautomerization."
+  },
+  {
+    "id": 606,
+    "text": "The product of electrocyclic ring closure of hexatriene under photochemical conditions is:",
+    "options": [
+      "Conrotatory",
+      "Disrotatory",
+      "No reaction",
+      "Racemic mixture"
+    ],
+    "correct": 0,
+    "category": "Pericyclic Reactions",
+    "explanation": "For 6π-electron system under photochemical conditions, ring closure is conrotatory."
+  },
+  {
+    "id": 607,
+    "text": "Neighbouring group participation by an adjacent oxygen atom in a nucleophilic substitution leads to:",
+    "options": [
+      "Cyclic intermediate (oxonium ion)",
+      "Carbocation rearrangement",
+      "Elimination product",
+      "Racemisation"
+    ],
+    "correct": 0,
+    "category": "Neighbouring Group Effect",
+    "explanation": "Oxygen lone pair attacks forming a cyclic oxonium ion intermediate."
+  },
+  {
+    "id": 608,
+    "text": "Which metal complex is used in asymmetric hydrogenation?",
+    "options": [
+      "Rh-BINAP",
+      "Pd(PPh₃)₄",
+      "Ni(CO)₄",
+      "Fe(CO)₅"
+    ],
+    "correct": 0,
+    "category": "Transition Metal Catalysis",
+    "explanation": "Rhodium complexes with chiral BINAP ligands are used for asymmetric hydrogenation."
+  },
+  {
+    "id": 609,
+    "text": "The oxo process product is:",
+    "options": [
+      "Aldehyde",
+      "Alcohol",
+      "Ketone",
+      "Carboxylic acid"
+    ],
+    "correct": 0,
+    "category": "Transition Metal Catalysis",
+    "explanation": "Hydroformylation (oxo process) yields aldehydes from alkenes."
+  },
+  {
+    "id": 610,
+    "text": "A reaction that gives only one diastereomer from a chiral starting material is:",
+    "options": [
+      "Stereospecific",
+      "Stereoselective",
+      "Regioselective",
+      "Chemoselective"
+    ],
+    "correct": 0,
+    "category": "Stereoselective & Stereospecific",
+    "explanation": "Stereospecific: different stereoisomers of reactant give different products; here one diastereomer from a chiral starting material implies stereospecificity."
+  },
+  {
+    "id": 611,
+    "text": "Which heterocycle is most reactive towards electrophilic substitution?",
+    "options": [
+      "Pyrrole",
+      "Furan",
+      "Thiophene",
+      "Benzene"
+    ],
+    "correct": 0,
+    "category": "Five-Membered Heterocycles",
+    "explanation": "Pyrrole is the most reactive among these due to highest electron density."
+  },
+  {
+    "id": 612,
+    "text": "Nitration of pyridine gives:",
+    "options": [
+      "2-Nitropyridine",
+      "3-Nitropyridine",
+      "4-Nitropyridine",
+      "Mixture of 2 and 4"
+    ],
+    "correct": 1,
+    "category": "Six-Membered Heterocycles",
+    "explanation": "Pyridine is deactivated and meta-directing; nitration gives 3-nitropyridine."
+  },
+  {
+    "id": 613,
+    "text": "The sugar present in DNA is:",
+    "options": [
+      "2-Deoxy-D-ribose",
+      "D-Ribose",
+      "D-Glucose",
+      "D-Fructose"
+    ],
+    "correct": 0,
+    "category": "Carbohydrates",
+    "explanation": "DNA contains 2-deoxy-D-ribose."
+  },
+  {
+    "id": 614,
+    "text": "Maltose is composed of:",
+    "options": [
+      "Two glucose units (α-1,4 linkage)",
+      "Glucose + fructose",
+      "Glucose + galactose",
+      "Two fructose units"
+    ],
+    "correct": 0,
+    "category": "Carbohydrates",
+    "explanation": "Maltose is a disaccharide of two α-D-glucose units linked by α-1,4 bond."
+  },
+  {
+    "id": 615,
+    "text": "Lactose is a disaccharide of:",
+    "options": [
+      "Glucose + galactose",
+      "Glucose + glucose",
+      "Glucose + fructose",
+      "Galactose + fructose"
+    ],
+    "correct": 0,
+    "category": "Carbohydrates",
+    "explanation": "Lactose is β-D-galactopyranosyl-(1→4)-α-D-glucopyranose."
+  },
+  {
+    "id": 616,
+    "text": "The bond that links monosaccharides is called:",
+    "options": [
+      "Glycosidic bond",
+      "Peptide bond",
+      "Ester bond",
+      "Hydrogen bond"
+    ],
+    "correct": 0,
+    "category": "Carbohydrates",
+    "explanation": "Glycosidic bond connects monosaccharides in oligo/polysaccharides."
+  },
+  {
+    "id": 617,
+    "text": "Amylopectin has branching due to:",
+    "options": [
+      "α-1,6 linkages",
+      "β-1,4 linkages",
+      "α-1,4 linkages",
+      "β-1,6 linkages"
+    ],
+    "correct": 0,
+    "category": "Carbohydrates",
+    "explanation": "Branch points in amylopectin are α-1,6 glycosidic bonds."
+  },
+  {
+    "id": 618,
+    "text": "Which of the following is a non-reducing sugar?",
+    "options": [
+      "Sucrose",
+      "Maltose",
+      "Lactose",
+      "Glucose"
+    ],
+    "correct": 0,
+    "category": "Carbohydrates",
+    "explanation": "Sucrose has both anomeric carbons involved in glycosidic linkage, so non-reducing."
+  },
+  {
+    "id": 619,
+    "text": "The enzyme that hydrolyses starch is:",
+    "options": [
+      "Amylase",
+      "Lipase",
+      "Protease",
+      "Nuclease"
+    ],
+    "correct": 0,
+    "category": "Carbohydrates",
+    "explanation": "Amylase breaks down starch into sugars."
+  },
+  {
+    "id": 620,
+    "text": "Fatty acids are stored in the body as:",
+    "options": [
+      "Triglycerides",
+      "Cholesterol esters",
+      "Phospholipids",
+      "Glycolipids"
+    ],
+    "correct": 0,
+    "category": "Lipids",
+    "explanation": "Fat is stored as triglycerides (triacylglycerols) in adipose tissue."
+  },
+  {
+    "id": 621,
+    "text": "Which of the following is an essential fatty acid?",
+    "options": [
+      "Linoleic acid",
+      "Stearic acid",
+      "Palmitic acid",
+      "Oleic acid"
+    ],
+    "correct": 0,
+    "category": "Lipids",
+    "explanation": "Linoleic acid (18:2) is an essential fatty acid; cannot be synthesized by the body."
+  },
+  {
+    "id": 622,
+    "text": "The iodine value of an oil indicates:",
+    "options": [
+      "Degree of unsaturation",
+      "Saponification number",
+      "Acid number",
+      "Peroxide value"
+    ],
+    "correct": 0,
+    "category": "Lipids",
+    "explanation": "Iodine value measures the number of double bonds (grams I₂ per 100 g fat)."
+  },
+  {
+    "id": 623,
+    "text": "Amino acids are linked by:",
+    "options": [
+      "Peptide bonds",
+      "Hydrogen bonds",
+      "Disulfide bonds",
+      "Ionic bonds"
+    ],
+    "correct": 0,
+    "category": "Proteins & Nucleic Acids",
+    "explanation": "Peptide bonds (amide) link amino acids in proteins."
+  },
+  {
+    "id": 624,
+    "text": "The secondary structure of DNA is:",
+    "options": [
+      "Double helix",
+      "α-Helix",
+      "β-Sheet",
+      "Random coil"
+    ],
+    "correct": 0,
+    "category": "Proteins & Nucleic Acids",
+    "explanation": "DNA secondary structure is the double helix."
+  },
+  {
+    "id": 625,
+    "text": "The base sequence complementary to 5’-ATG-3’ is:",
+    "options": [
+      "5’-TAC-3’",
+      "5’-CAT-3’",
+      "5’-GTA-3’",
+      "5’-TAG-3’"
+    ],
+    "correct": 1,
+    "category": "Proteins & Nucleic Acids",
+    "explanation": "Complementary antiparallel strand: 3’-TAC-5’ written 5’-CAT-3’."
+  },
+  {
+    "id": 626,
+    "text": "Which of the following is a pyrimidine base?",
+    "options": [
+      "Adenine",
+      "Guanine",
+      "Cytosine",
+      "Both a and b"
+    ],
+    "correct": 2,
+    "category": "Proteins & Nucleic Acids",
+    "explanation": "Cytosine, thymine, uracil are pyrimidines; adenine and guanine are purines."
+  },
+  {
+    "id": 627,
+    "text": "The sugar in RNA is:",
+    "options": [
+      "D-Ribose",
+      "2-Deoxy-D-ribose",
+      "D-Glucose",
+      "D-Fructose"
+    ],
+    "correct": 0,
+    "category": "Proteins & Nucleic Acids",
+    "explanation": "RNA contains D-ribose."
+  },
+  {
+    "id": 628,
+    "text": "The amino acid with an indole side chain is:",
+    "options": [
+      "Tryptophan",
+      "Tyrosine",
+      "Phenylalanine",
+      "Histidine"
+    ],
+    "correct": 0,
+    "category": "Proteins & Nucleic Acids",
+    "explanation": "Tryptophan has an indole ring in its side chain."
+  },
+  {
+    "id": 629,
+    "text": "The α-helix is an example of:",
+    "options": [
+      "Secondary structure",
+      "Primary structure",
+      "Tertiary structure",
+      "Quaternary structure"
+    ],
+    "correct": 0,
+    "category": "Proteins & Nucleic Acids",
+    "explanation": "α-Helix is a type of secondary structure."
+  },
+  {
+    "id": 630,
+    "text": "Which reagent is used for the synthesis of benzimidazole from o-phenylenediamine?",
+    "options": [
+      "Formic acid",
+      "Acetic acid",
+      "Benzoic acid",
+      "Succinic acid"
+    ],
+    "correct": 0,
+    "category": "Organic Reagents",
+    "explanation": "o-Phenylenediamine + formic acid gives benzimidazole (Phillip's reaction)."
+  },
+  {
+    "id": 631,
+    "text": "The synthesis of acetanilide from aniline uses:",
+    "options": [
+      "Acetic anhydride",
+      "Acetyl chloride",
+      "Glacial acetic acid",
+      "Both a and b"
+    ],
+    "correct": 3,
+    "category": "Organic Reagents",
+    "explanation": "Aniline is acetylated by acetic anhydride or acetyl chloride to give acetanilide."
+  },
+  {
+    "id": 632,
+    "text": "The Beckmann rearrangement converts oximes to:",
+    "options": [
+      "Amides",
+      "Amines",
+      "Nitriles",
+      "Carboxylic acids"
+    ],
+    "correct": 0,
+    "category": "Organic Reagents",
+    "explanation": "Ketoximes rearrange to amides under Beckmann conditions."
+  },
+  {
+    "id": 633,
+    "text": "The Sandmeyer reaction is used to replace diazonium group by:",
+    "options": [
+      "–Cl, –Br, –CN",
+      "–OH",
+      "–H",
+      "–NO₂"
+    ],
+    "correct": 0,
+    "category": "Organic Reagents",
+    "explanation": "Sandmeyer reaction uses Cu(I) salts to introduce Cl, Br, or CN."
+  },
+  {
+    "id": 634,
+    "text": "Fluorescein is synthesised from:",
+    "options": [
+      "Phthalic anhydride + resorcinol",
+      "Phthalic acid + phenol",
+      "Succinic anhydride + resorcinol",
+      "Benzoic acid + resorcinol"
+    ],
+    "correct": 0,
+    "category": "Organic Reagents",
+    "explanation": "Fluorescein is made by condensation of phthalic anhydride with resorcinol."
+  },
+  {
+    "id": 635,
+    "text": "Eosin is a brominated derivative of:",
+    "options": [
+      "Fluorescein",
+      "Phenolphthalein",
+      "Methyl orange",
+      "Congo red"
+    ],
+    "correct": 0,
+    "category": "Organic Reagents",
+    "explanation": "Eosin is tetrabromofluorescein."
+  },
+  {
+    "id": 636,
+    "text": "The synthesis of p-aminobenzoic acid from p-nitrobenzoic acid involves:",
+    "options": [
+      "Reduction",
+      "Oxidation",
+      "Hydrolysis",
+      "Esterification"
+    ],
+    "correct": 0,
+    "category": "Organic Reagents",
+    "explanation": "Reduction of the nitro group gives p-aminobenzoic acid."
+  },
+  {
+    "id": 637,
+    "text": "Benzocaine (ethyl p-aminobenzoate) is prepared by:",
+    "options": [
+      "Esterification of p-aminobenzoic acid",
+      "Reduction of ethyl p-nitrobenzoate",
+      "Both a and b",
+      "None"
+    ],
+    "correct": 2,
+    "category": "Organic Reagents",
+    "explanation": "Benzocaine can be made by direct esterification or by reduction of ethyl p-nitrobenzoate."
+  },
+  {
+    "id": 638,
+    "text": "Cannizzaro reaction is given by:",
+    "options": [
+      "Aldehydes without α-hydrogen",
+      "Aldehydes with α-hydrogen",
+      "Ketones",
+      "Carboxylic acids"
+    ],
+    "correct": 0,
+    "category": "Organic Reagents",
+    "explanation": "Aldehydes lacking α-hydrogen (e.g., benzaldehyde, formaldehyde) undergo Cannizzaro."
+  },
+  {
+    "id": 639,
+    "text": "Benzyl alcohol can be prepared from benzaldehyde by:",
+    "options": [
+      "Cannizzaro reaction",
+      "Reduction with NaBH₄",
+      "Grignard reaction",
+      "All of the above"
+    ],
+    "correct": 3,
+    "category": "Organic Reagents",
+    "explanation": "Benzyl alcohol from benzaldehyde: Cannizzaro (with another molecule), reduction (NaBH₄), or Grignard (PhMgBr + HCHO)."
+  },
+  {
+    "id": 640,
+    "text": "Tosyl chloride is used to protect:",
+    "options": [
+      "Alcohols",
+      "Amines",
+      "Carboxylic acids",
+      "Aldehydes"
+    ],
+    "correct": 0,
+    "category": "Organic Reagents",
+    "explanation": "Tosylation protects alcohols as tosylates."
+  },
+  {
+    "id": 641,
+    "text": "Pyridine is used as a:",
+    "options": [
+      "Base and solvent in acetylation reactions",
+      "Oxidising agent",
+      "Reducing agent",
+      "Dehydrating agent"
+    ],
+    "correct": 0,
+    "category": "Organic Reagents",
+    "explanation": "Pyridine is a common base and polar aprotic solvent in acylations."
+  },
+  {
+    "id": 642,
+    "text": "Succinic anhydride is used in the synthesis of:",
+    "options": [
+      "Succinimide",
+      "Barbiturates",
+      "Aspirin",
+      "Paracetamol"
+    ],
+    "correct": 0,
+    "category": "Organic Reagents",
+    "explanation": "Succinic anhydride + ammonia or amine gives succinimide."
+  },
+  {
+    "id": 643,
+    "text": "Acetophenone is prepared by:",
+    "options": [
+      "Friedel-Crafts acylation of benzene",
+      "Oxidation of ethylbenzene",
+      "Both a and b",
+      "None"
+    ],
+    "correct": 2,
+    "category": "Organic Reagents",
+    "explanation": "Acetophenone can be made by Friedel-Crafts acylation (benzene + AcCl) or oxidation of ethylbenzene."
+  },
+  {
+    "id": 644,
+    "text": "Dimethylaniline is used as a coupling component in azo dye synthesis because:",
+    "options": [
+      "It is a strong nucleophile",
+      "It has an activated aromatic ring",
+      "It is a base",
+      "It is a solvent"
+    ],
+    "correct": 1,
+    "category": "Organic Reagents",
+    "explanation": "The N,N-dimethylamino group activates the ring toward electrophilic attack by diazonium ion."
+  },
+  {
+    "id": 645,
+    "text": "The synthesis of barbituric acid from diethyl malonate involves:",
+    "options": [
+      "Condensation with urea",
+      "Condensation with thiourea",
+      "Condensation with ammonia",
+      "Reduction"
+    ],
+    "correct": 0,
+    "category": "Additional Mixed",
+    "explanation": "Diethyl malonate + urea in presence of sodium ethoxide gives barbituric acid."
+  },
+  {
+    "id": 646,
+    "text": "Which of the following is a five-membered aromatic heterocycle with two heteroatoms?",
+    "options": [
+      "Imidazole",
+      "Pyridine",
+      "Quinoline",
+      "Indole"
+    ],
+    "correct": 0,
+    "category": "Five-Membered Heterocycles",
+    "explanation": "Imidazole (two nitrogens) is a five-membered aromatic heterocycle."
+  },
+  {
+    "id": 647,
+    "text": "The correct order of basicity of pyridine, piperidine and pyrrole is:",
+    "options": [
+      "Piperidine > Pyridine > Pyrrole",
+      "Pyridine > Piperidine > Pyrrole",
+      "Pyrrole > Pyridine > Piperidine",
+      "Piperidine > Pyrrole > Pyridine"
+    ],
+    "correct": 0,
+    "category": "Six-Membered Heterocycles",
+    "explanation": "Piperidine (pKa ~11) > pyridine (5.2) > pyrrole (~ -4)."
+  },
+  {
+    "id": 648,
+    "text": "Furan reacts with maleic anhydride to give a Diels-Alder adduct. This reaction is possible because:",
+    "options": [
+      "Furan acts as a diene",
+      "Furan acts as a dienophile",
+      "Furan is electron-deficient",
+      "Furan is not aromatic"
+    ],
+    "correct": 0,
+    "category": "Five-Membered Heterocycles",
+    "explanation": "Furan acts as a conjugated diene in Diels-Alder reactions."
+  },
+  {
+    "id": 649,
+    "text": "Thiophene is stable to strong acids because:",
+    "options": [
+      "Sulphur atom has low basicity",
+      "Sulphur atom is highly basic",
+      "It undergoes polymerization",
+      "It is non-aromatic"
+    ],
+    "correct": 0,
+    "category": "Five-Membered Heterocycles",
+    "explanation": "Sulfur's lone pairs are in 3p orbitals, less available for protonation, making thiophene acid-stable."
+  },
+  {
+    "id": 650,
+    "text": "Which of the following is a method for the synthesis of pyrrole?",
+    "options": [
+      "Paal-Knorr synthesis",
+      "Hantzsch synthesis",
+      "Skraup synthesis",
+      "Fischer indole synthesis"
+    ],
+    "correct": 0,
+    "category": "Five-Membered Heterocycles",
+    "explanation": "Paal-Knorr synthesis of pyrrole uses 1,4-dicarbonyls with NH₃."
+  },
+  {
+    "id": 651,
+    "text": "The Paal-Knorr synthesis of furan uses:",
+    "options": [
+      "1,4-Dicarbonyl compound",
+      "1,3-Dicarbonyl compound",
+      "1,2-Dicarbonyl compound",
+      "1,5-Dicarbonyl compound"
+    ],
+    "correct": 0,
+    "category": "Five-Membered Heterocycles",
+    "explanation": "Paal-Knorr furan synthesis: 1,4-dicarbonyls with P₂O₅ or acid."
+  },
+  {
+    "id": 652,
+    "text": "Indole is obtained by:",
+    "options": [
+      "Fischer indole synthesis",
+      "Skraup synthesis",
+      "Knorr pyrazole synthesis",
+      "Bischler-Napieralski reaction"
+    ],
+    "correct": 0,
+    "category": "Higher Heterocycles",
+    "explanation": "Fischer indole synthesis from phenylhydrazine and ketone/aldehyde gives indole."
+  },
+  {
+    "id": 653,
+    "text": "The Bischler-Napieralski reaction gives:",
+    "options": [
+      "Isoquinoline derivatives",
+      "Quinoline derivatives",
+      "Indole derivatives",
+      "Pyridine derivatives"
+    ],
+    "correct": 0,
+    "category": "Higher Heterocycles",
+    "explanation": "Bischler-Napieralski cyclization yields dihydroisoquinolines, which can be dehydrogenated to isoquinolines."
+  },
+  {
+    "id": 654,
+    "text": "The Doebner-Miller reaction is used for synthesis of:",
+    "options": [
+      "Quinolines",
+      "Isoquinolines",
+      "Pyrroles",
+      "Furans"
+    ],
+    "correct": 0,
+    "category": "Higher Heterocycles",
+    "explanation": "Doebner-Miller is a modification of Skraup for quinoline synthesis."
+  },
+  {
+    "id": 655,
+    "text": "The basicity of isoquinoline is higher than that of quinoline because:",
+    "options": [
+      "The nitrogen lone pair is not involved in aromaticity",
+      "The nitrogen is in a different position",
+      "Isoquinoline has more resonance structures",
+      "Both a and b"
+    ],
+    "correct": 3,
+    "category": "Higher Heterocycles",
+    "explanation": "Isoquinoline (pKa 5.4) > pyridine (5.2) > quinoline (4.9); the lone pair is more available in isoquinoline due to less electron withdrawal from the fused ring."
+  },
+  {
+    "id": 656,
+    "text": "Which of the following reactions is an example of a pericyclic reaction?",
+    "options": [
+      "Diels-Alder reaction",
+      "Aldol condensation",
+      "Claisen condensation",
+      "Michael addition"
+    ],
+    "correct": 0,
+    "category": "Pericyclic Reactions",
+    "explanation": "Diels-Alder is a [4+2] cycloaddition, a pericyclic reaction."
+  },
+  {
+    "id": 657,
+    "text": "The thermal [2+2] cycloaddition is:",
+    "options": [
+      "Allowed suprafacially",
+      "Forbidden",
+      "Allowed antarafacially",
+      "Always concerted"
+    ],
+    "correct": 1,
+    "category": "Pericyclic Reactions",
+    "explanation": "Thermal [2+2] cycloaddition is forbidden by Woodward-Hoffmann rules."
+  },
+  {
+    "id": 658,
+    "text": "The Cope rearrangement of 1,5-hexadiene gives:",
+    "options": [
+      "1,5-Hexadiene (same)",
+      "1,4-Hexadiene",
+      "1,3-Hexadiene",
+      "Benzene"
+    ],
+    "correct": 0,
+    "category": "Pericyclic Reactions",
+    "explanation": "Cope rearrangement of 1,5-hexadiene is degenerate; starting material and product are identical."
+  },
+  {
+    "id": 659,
+    "text": "Neighbouring group participation by a double bond is called:",
+    "options": [
+      "π-participation",
+      "σ-participation",
+      "n-participation",
+      "Anchimeric assistance"
+    ],
+    "correct": 0,
+    "category": "Neighbouring Group Effect",
+    "explanation": "Participation by π electrons of a double bond is π-participation."
+  },
+  {
+    "id": 660,
+    "text": "In the oxo process, the product after hydrogenation of the aldehyde gives:",
+    "options": [
+      "Alcohol",
+      "Alkane",
+      "Carboxylic acid",
+      "Ester"
+    ],
+    "correct": 0,
+    "category": "Transition Metal Catalysis",
+    "explanation": "Aldehyde from hydroformylation can be hydrogenated to the corresponding alcohol."
+  },
+  {
+    "id": 661,
+    "text": "Wilkinson’s catalyst is used in:",
+    "options": [
+      "Homogeneous hydrogenation",
+      "Heterogeneous hydrogenation",
+      "Oxidation",
+      "Hydroformylation"
+    ],
+    "correct": 0,
+    "category": "Transition Metal Catalysis",
+    "explanation": "Wilkinson's catalyst is a soluble (homogeneous) hydrogenation catalyst."
+  },
+  {
+    "id": 662,
+    "text": "The addition of HBr to an unsymmetrical alkene in the presence of peroxides follows:",
+    "options": [
+      "Markovnikov’s rule",
+      "Anti-Markovnikov’s rule",
+      "Saytzeff’s rule",
+      "Hofmann’s rule"
+    ],
+    "correct": 1,
+    "category": "Stereoselective & Stereospecific",
+    "explanation": "Peroxide effect causes anti-Markovnikov addition of HBr via free radical mechanism."
+  },
+  {
+    "id": 663,
+    "text": "The stereochemistry of the SN2 reaction is:",
+    "options": [
+      "Inversion",
+      "Retention",
+      "Racemisation",
+      "No change"
+    ],
+    "correct": 0,
+    "category": "Stereoselective & Stereospecific",
+    "explanation": "SN2 proceeds with backside attack, resulting in inversion of configuration."
+  },
+  {
+    "id": 664,
+    "text": "Which of the following is a disaccharide?",
+    "options": [
+      "Sucrose",
+      "Glucose",
+      "Fructose",
+      "Starch"
+    ],
+    "correct": 0,
+    "category": "Carbohydrates",
+    "explanation": "Sucrose is a disaccharide; glucose and fructose are monosaccharides; starch is a polysaccharide."
+  },
+  {
+    "id": 665,
+    "text": "The acid value of an oil is a measure of:",
+    "options": [
+      "Free fatty acids",
+      "Unsaturation",
+      "Saponification",
+      "Peroxide content"
+    ],
+    "correct": 0,
+    "category": "Lipids",
+    "explanation": "Acid value is the mg KOH required to neutralize free fatty acids in 1 g of oil."
+  },
+  {
+    "id": 666,
+    "text": "Which amino acid is not optically active?",
+    "options": [
+      "Glycine",
+      "Alanine",
+      "Valine",
+      "Leucine"
+    ],
+    "correct": 0,
+    "category": "Proteins & Nucleic Acids",
+    "explanation": "Glycine has two hydrogens on the α-carbon, making it achiral."
+  },
+  {
+    "id": 667,
+    "text": "The quaternary structure of a protein refers to:",
+    "options": [
+      "Arrangement of multiple polypeptide subunits",
+      "Sequence of amino acids",
+      "Local folding pattern",
+      "Overall 3D structure of a single chain"
+    ],
+    "correct": 0,
+    "category": "Proteins & Nucleic Acids",
+    "explanation": "Quaternary structure is the assembly of multiple polypeptide chains."
+  },
+  {
+    "id": 668,
+    "text": "In DNA, adenine pairs with thymine via:",
+    "options": [
+      "Two hydrogen bonds",
+      "Three hydrogen bonds",
+      "One hydrogen bond",
+      "Covalent bond"
+    ],
+    "correct": 0,
+    "category": "Proteins & Nucleic Acids",
+    "explanation": "A=T base pair has two hydrogen bonds."
+  },
+  {
+    "id": 669,
+    "text": "Guanine pairs with cytosine via:",
+    "options": [
+      "Three hydrogen bonds",
+      "Two hydrogen bonds",
+      "One hydrogen bond",
+      "Ionic bond"
+    ],
+    "correct": 0,
+    "category": "Proteins & Nucleic Acids",
+    "explanation": "G≡C base pair has three hydrogen bonds."
+  },
+  {
+    "id": 670,
+    "text": "The melting point of DNA is increased by:",
+    "options": [
+      "High GC content",
+      "High AT content",
+      "High pH",
+      "Low salt concentration"
+    ],
+    "correct": 0,
+    "category": "Proteins & Nucleic Acids",
+    "explanation": "GC pairs have three H-bonds, so higher GC content increases thermal stability (Tm)."
+  },
+  {
+    "id": 671,
+    "text": "Which reagent is used for the synthesis of oxazolone from benzoylglycine?",
+    "options": [
+      "Acetic anhydride + sodium acetate",
+      "Acetyl chloride",
+      "Thionyl chloride",
+      "PCl₅"
+    ],
+    "correct": 0,
+    "category": "Organic Reagents",
+    "explanation": "Benzoylglycine with Ac₂O/NaOAc gives oxazolone (Erlenmeyer-Plöchl azlactone)."
+  },
+  {
+    "id": 672,
+    "text": "The synthesis of 2,5-dioxopiperazine from glycine involves:",
+    "options": [
+      "Dimerisation with elimination of water",
+      "Oxidation",
+      "Reduction",
+      "Decarboxylation"
+    ],
+    "correct": 0,
+    "category": "Organic Reagents",
+    "explanation": "Two glycine molecules condense to form a cyclic dipeptide (2,5-dioxopiperazine)."
+  },
+  {
+    "id": 673,
+    "text": "The azo coupling reaction between p-nitrobenzenediazonium sulfate and N,N-dimethylaniline gives:",
+    "options": [
+      "p-(4-Nitrobenzeneazo)-N,N-dimethylaniline",
+      "Methyl orange",
+      "Congo red",
+      "Phenolphthalein"
+    ],
+    "correct": 0,
+    "category": "Organic Reagents",
+    "explanation": "Coupling at the para position of N,N-dimethylaniline yields a red azo dye."
+  },
+  {
+    "id": 674,
+    "text": "The acid value of a fixed oil is determined by:",
+    "options": [
+      "Titration with KOH using phenolphthalein",
+      "Titration with HCl",
+      "Iodometry",
+      "Gravimetry"
+    ],
+    "correct": 0,
+    "category": "Organic Reagents",
+    "explanation": "Acid value is measured by direct titration of free fatty acids with KOH."
+  },
+  {
+    "id": 675,
+    "text": "The saponification value is higher for oils containing:",
+    "options": [
+      "Short chain fatty acids",
+      "Long chain fatty acids",
+      "Unsaturated fatty acids",
+      "Branched chain fatty acids"
+    ],
+    "correct": 0,
+    "category": "Lipids",
+    "explanation": "Shorter chain fatty acids have more moles per gram, requiring more KOH for saponification."
+  },
+  {
+    "id": 676,
+    "text": "Which of the following is a method for chain shortening of aldoses?",
+    "options": [
+      "Ruff degradation",
+      "Killiani-Fischer synthesis",
+      "Wohl degradation",
+      "Both a and c"
+    ],
+    "correct": 3,
+    "category": "Carbohydrates",
+    "explanation": "Ruff and Wohl degradations shorten aldose chain by one carbon."
+  },
+  {
+    "id": 677,
+    "text": "The structure of maltose has a glycosidic linkage:",
+    "options": [
+      "α-1,4",
+      "β-1,4",
+      "α-1,6",
+      "β-1,6"
+    ],
+    "correct": 0,
+    "category": "Carbohydrates",
+    "explanation": "Maltose is linked by an α-1,4 glycosidic bond between two glucose units."
+  },
+  {
+    "id": 678,
+    "text": "The enzyme that hydrolyses lactose is:",
+    "options": [
+      "Lactase",
+      "Sucrase",
+      "Maltase",
+      "Amylase"
+    ],
+    "correct": 0,
+    "category": "Carbohydrates",
+    "explanation": "Lactase specifically hydrolyzes lactose into glucose and galactose."
+  },
+  {
+    "id": 679,
+    "text": "Which heterocycle is present in vitamin B6 (pyridoxine)?",
+    "options": [
+      "Pyridine",
+      "Pyrrole",
+      "Imidazole",
+      "Thiazole"
+    ],
+    "correct": 0,
+    "category": "Six-Membered Heterocycles",
+    "explanation": "Pyridoxine contains a pyridine ring."
+  },
+  {
+    "id": 680,
+    "text": "The aromaticity of thiophene is due to:",
+    "options": [
+      "6π electrons from two double bonds and lone pair of sulphur",
+      "4π electrons",
+      "10π electrons",
+      "8π electrons"
+    ],
+    "correct": 0,
+    "category": "Five-Membered Heterocycles",
+    "explanation": "Thiophene has 6π electrons: two double bonds and a lone pair from sulfur in the p orbital."
+  },
+  {
+    "id": 681,
+    "text": "Which of the following statements is true about furan?",
+    "options": [
+      "It is more aromatic than thiophene",
+      "It undergoes Diels-Alder reaction readily",
+      "It is stable in strong acid",
+      "Its oxygen lone pair is fully delocalised"
+    ],
+    "correct": 1,
+    "category": "Five-Membered Heterocycles",
+    "explanation": "Furan readily undergoes Diels-Alder reactions due to its diene character and loss of aromaticity in the adduct."
+  },
+  
+  {
+    "id": 682,
+    "text": "Nucleophilic substitution reaction takes place when halogenoalkanes is added with aqueous solution of",
+    "options": [
+      "Sodium chloride",
+      "Sodium magnet",
+      "Sodium hydroxide",
+      "Sodium chlorate"
+    ],
+    "correct": 2,
+    "category": "Nucleophilic Substitution",
+    "explanation": "Sodium hydroxide (NaOH) provides the nucleophile OH⁻, which displaces the halogen in a nucleophilic substitution reaction."
+  },
+  {
+    "id": 683,
+    "text": "Ion which is more effective nucleophile than water is",
+    "options": [
+      "Negatively charged hydroxide",
+      "Carbocation",
+      "Anion",
+      "Hydroxyl ion"
+    ],
+    "correct": 0,
+    "category": "Nucleophilic Substitution",
+    "explanation": "Hydroxide ion (OH⁻) bears a negative charge and is a stronger nucleophile than neutral water due to higher electron density."
+  },
+  {
+    "id": 684,
+    "text": "Which of the following acts as electrophile in halogenation?",
+    "options": [
+      "Nitronium ion",
+      "Sulphonium ion",
+      "Halonium ion",
+      "Acylium ion"
+    ],
+    "correct": 2,
+    "category": "Electrophilic Substitution",
+    "explanation": "In halogenation of alkenes or aromatics, the electrophile is a halonium ion (e.g., Br⁺ or Cl⁺) formed from the halogen molecule."
+  },
+  {
+    "id": 685,
+    "text": "Identify the correct order of reactivity of the following towards aromatic electrophilic reaction",
+    "options": [
+      "Nitrobenzene < chlorobenzene < Benzene < toluene",
+      "Nitrobenzene < Benzene < toluene < chlorobenzene",
+      "Nitrobenzene < chlorobenzene < toluene < Benzene",
+      "Nitrobenzene < toluene < chlorobenzene < Benzene"
+    ],
+    "correct": 0,
+    "category": "Aromatic Electrophilic Substitution",
+    "explanation": "Nitrobenzene is deactivating, chlorobenzene is slightly deactivating (but ortho/para directing), benzene is reference, and toluene is activating. Thus the order is Nitrobenzene < chlorobenzene < benzene < toluene."
+  },
+  {
+    "id": 686,
+    "text": "The product formed in aldol condensation is",
+    "options": [
+      "α-hydroxy aldehyde or ketone",
+      "β-hydroxy aldehyde or ketone",
+      "α,β-unsaturated ester",
+      "β-hydroxy acid"
+    ],
+    "correct": 1,
+    "category": "Aldol Condensation",
+    "explanation": "Aldol condensation initially gives a β-hydroxy aldehyde or ketone (aldol), which can dehydrate to an α,β-unsaturated carbonyl."
+  },
+  {
+    "id": 687,
+    "text": "Addition reaction of hydrogen bromide to an unsymmetrical alkene follows",
+    "options": [
+      "Anti Markovnikov's rule",
+      "Markovnikov's rule",
+      "Peroxide effect",
+      "Kharash effect"
+    ],
+    "correct": 1,
+    "category": "Alkene Addition",
+    "explanation": "Under normal ionic conditions, HBr adds to unsymmetrical alkenes according to Markovnikov's rule (H adds to less substituted carbon)."
+  },
+  {
+    "id": 688,
+    "text": "What is an oxo process?",
+    "options": [
+      "Substitution of H-CHO across a double bond",
+      "Addition of H-CHO across a double bond",
+      "Substitution of H-CHO across a triple bond",
+      "Addition of H-CHO across a triple bond"
+    ],
+    "correct": 1,
+    "category": "Hydroformylation",
+    "explanation": "Oxo process (hydroformylation) adds H and CHO (formyl group) across a carbon-carbon double bond to produce an aldehyde."
+  },
+  {
+    "id": 689,
+    "text": "Which of the following statement is correct?",
+    "options": [
+      "Pyrrole has lesser aromatic character than furan",
+      "Pyridine is isoelectronic with benzene",
+      "Pyridine is a tertiary amine",
+      "Pyrrole is a strong base"
+    ],
+    "correct": 1,
+    "category": "Heterocyclic Chemistry",
+    "explanation": "Pyridine and benzene both have 42 total electrons (6π electrons in the ring) and are isoelectronic. (Pyridine is also a tertiary amine, but option B is a classic fact; pyrrole is more aromatic than furan and is a very weak base.)"
+  },
+  {
+    "id": 690,
+    "text": "Which of the following is NOT true about five membered rings?",
+    "options": [
+      "Five membered rings are more stable than 4 membered rings",
+      "Five membered rings are more stable than 6 membered rings",
+      "Five membered rings are more stable than 7 membered rings",
+      "Five membered rings are more stable than 8 membered rings"
+    ],
+    "correct": 1,
+    "category": "Ring Stability",
+    "explanation": "Six-membered rings (e.g., cyclohexane, benzene) have minimal ring strain and are generally more stable than five-membered rings, so statement B is false."
+  },
+  {
+    "id": 691,
+    "text": "Which of the following is NOT a five membered ring?",
+    "options": [
+      "Thiophene",
+      "Pyrrole",
+      "Furan",
+      "Pyridine"
+    ],
+    "correct": 3,
+    "category": "Heterocyclic Chemistry",
+    "explanation": "Pyridine is a six-membered aromatic heterocycle; thiophene, pyrrole, and furan are five-membered."
+  },
+  {
+    "id": 692,
+    "text": "What is the name of the following reaction? (HCN, HCl with aromatic compound to give aldehyde)",
+    "options": [
+      "Gattermann reaction",
+      "Reimer-Tiemann reaction",
+      "Friedel-Crafts reaction",
+      "Blanc's chloromethylation"
+    ],
+    "correct": 0,
+    "category": "Named Reactions",
+    "explanation": "The Gattermann reaction uses HCN and HCl in presence of a Lewis acid to introduce a formyl group (-CHO) onto an aromatic ring."
+  },
+  {
+    "id": 693,
+    "text": "Which drug is NOT under the chemical class of indole?",
+    "options": [
+      "Quinidine",
+      "Quinine",
+      "Atropine",
+      "Camptothecin"
+    ],
+    "correct": 2,
+    "category": "Alkaloid Chemistry",
+    "explanation": "Atropine is a tropane alkaloid, not an indole. Quinidine, quinine (quinoline alkaloids) and camptothecin (quinoline-based) are also not indoles, but Atropine is the most distinctly different. Common exam answer: Atropine."
+  },
+  {
+    "id": 694,
+    "text": "Fructose is",
+    "options": [
+      "Monosaccharide",
+      "Disaccharide",
+      "Oligosaccharide",
+      "Polysaccharide"
+    ],
+    "correct": 0,
+    "category": "Carbohydrates",
+    "explanation": "Fructose is a ketohexose, a simple sugar (monosaccharide)."
+  },
+  {
+    "id": 695,
+    "text": "Bond between two monosaccharides is digested by",
+    "options": [
+      "Lipase",
+      "Amylase",
+      "Protease",
+      "Peptidase"
+    ],
+    "correct": 1,
+    "category": "Enzymes",
+    "explanation": "The glycosidic bond between monosaccharides is hydrolyzed by amylase (and specific disaccharidases)."
+  },
+  {
+    "id": 696,
+    "text": "The number of milligrams of KOH required to completely hydrolyze one gram of the oil/fat is called",
+    "options": [
+      "Saponification value",
+      "Acid value",
+      "Iodine value",
+      "Peroxide value"
+    ],
+    "correct": 0,
+    "category": "Lipids",
+    "explanation": "Saponification value is defined as mg of KOH needed to saponify 1 g of fat or oil."
+  },
+  {
+    "id": 697,
+    "text": "Bond between two amino acids is",
+    "options": [
+      "Diester bond",
+      "Ester bond",
+      "Peptide bond",
+      "Coordinate bond"
+    ],
+    "correct": 2,
+    "category": "Proteins",
+    "explanation": "Amino acids are linked by peptide bonds (amide linkages) to form proteins."
+  },
+  {
+    "id": 698,
+    "text": "What is the molecular formula of cholesterol?",
+    "options": [
+      "C27H45OH",
+      "C28H47OH",
+      "C27H50OH",
+      "C29H45OH"
+    ],
+    "correct": 0,
+    "category": "Lipids",
+    "explanation": "Cholesterol has the formula C27H46O, which is written as C27H45OH."
+  },
+  {
+    "id": 699,
+    "text": "Which of (a)-(d) is complementary to the DNA segment 5'-ATGAGCCAT-3'?",
+    "options": [
+      "5'-TACTCCGTA-3'",
+      "5'-TACTCGGTA-3'",
+      "5'-TCATCGGTA-3'",
+      "5'-TACTGCGTA-3'"
+    ],
+    "correct": 1,
+    "category": "Nucleic Acids",
+    "explanation": "Complementary base pairing: A-T, T-A, G-C, C-G. The direct complement (ignoring antiparallel direction) gives TACTCGGTA, which is option B. In many simplified MCQs, this is accepted as the complementary sequence."
+  },
+  {
+    "id": 700,
+    "text": "Write the common name of 3-phenylprop-2-enoic acid (molecular formula C9H8O2)",
+    "options": [
+      "Cinnamic acid",
+      "Quinoline",
+      "Pyridine",
+      "Benzaldehyde"
+    ],
+    "correct": 0,
+    "category": "Organic Chemistry",
+    "explanation": "3-Phenylprop-2-enoic acid is cinnamic acid, a common aromatic unsaturated carboxylic acid."
+  },
+  {
+    "id": 701,
+    "text": "Name the given compound (structure of p-toluenesulfonyl chloride)",
+    "options": [
+      "Acetophenone",
+      "Dimethylaniline",
+      "Tosyl chloride",
+      "Succinic anhydride"
+    ],
+    "correct": 2,
+    "category": "Organic Reagents",
+    "explanation": "Tosyl chloride (p-toluenesulfonyl chloride, TsCl) is a common reagent for tosylation of alcohols and amines."
+  }
+
+
 
 ];
 
