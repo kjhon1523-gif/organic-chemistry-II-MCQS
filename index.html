@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover, user-scalable=yes">
+  <title>🧪 Pharma Organic Chemistry II | Ultimate MCQ Lab</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:opsz,wght@14..32,300;14..32,400;14..32,600;14..32,700&display=swap" rel="stylesheet">
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
+  <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.0/dist/chart.umd.min.js"></script>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<!-- LOGIN OVERLAY -->
+<div class="login-overlay" id="loginOverlay">
+  <div class="login-card">
+    <i class="fas fa-flask" style="font-size:2.5rem; color:#3b82f6;"></i>
+    <h2>🧪 Organic Chemistry Quiz</h2>
+    <p>Backup & Restore • Full Management • Analytics</p>
+    <div class="user-selector">
+      <label style="color:#cbd5e6; text-align:left; display:block;">👥 Existing Users</label>
+      <select id="existingUserSelect"></select>
+    </div>
+    <input autocomplete="off" id="loginUsername" placeholder="Username" type="text">
+    <input autocomplete="off" id="loginPassword" placeholder="Password" type="password">
+    <div class="error-msg" id="loginError"></div>
+    <button id="loginBtn"><i class="fas fa-sign-in-alt"></i> Login</button>
+    <button id="createAccountBtn" style="background:#334155;"><i class="fas fa-user-plus"></i> Create New Account</button>
+    <p style="font-size:0.7rem; margin-top:12px;">Demo: demo / demo123</p>
+  </div>
+</div>
+
+<!-- MAIN APP -->
+<div id="quizApp" style="display: none;">
+  <div class="main-layout">
+    <!-- Left Panel: Question List -->
+    <div class="question-list-panel">
+      <h3><span><i class="fas fa-list-ul"></i> 📚 Question Bank</span> <span id="filteredCountBadge">0</span></h3>
+      <div class="question-list" id="questionListContainer">Loading...</div>
+    </div>
+
+    <!-- Right Panel: Quiz Area -->
+    <div class="quiz-container">
+      <div class="top-bar">
+        <div class="user-info"><i class="fas fa-user"></i> <span id="userNameDisplay"></span></div>
+        <div>
+          <button class="btn-icon" id="switchUserBtn"><i class="fas fa-exchange-alt"></i> Switch</button>
+          <button class="btn-icon add-question-btn" id="addMcqBtn"><i class="fas fa-plus-circle"></i> Add</button>
+          <button class="btn-icon manage-btn" id="manageMcqBtn"><i class="fas fa-edit"></i> Manage</button>
+          <button class="btn-icon backup-btn" id="exportBackupBtn"><i class="fas fa-download"></i> Backup</button>
+          <button class="btn-icon backup-btn" id="importBackupBtn"><i class="fas fa-upload"></i> Restore</button>
+          <button class="btn-icon save-attempt-btn" id="saveAttemptBtn"><i class="fas fa-save"></i> Save Attempt</button>
+        </div>
+        <div class="category-selector">
+          <select id="categoryFilter">
+            <option value="all">📂 All Topics</option>
+          </select>
+        </div>
+        <div class="exam-controls">
+          <button id="timerMinusBtn">−</button>
+          <span id="timerMinutesDisplay">30</span>
+          <button id="timerPlusBtn">+</button>
+        </div>
+        <button id="examModeBtn">⏱️ Exam OFF</button>
+        <div class="score-area"><span>🎯 <span id="totalScoreSpan">0</span></span><span>📊 <span id="answeredCounter">0</span>/<span id="totalFilteredSpan">0</span></span></div>
+        <div class="timer-box" id="timerDisplay">⏲️ 30:00</div>
+      </div>
+
+      <div class="progress-section">
+        <div class="progress-label"><span>📈 Progress</span><span id="progressPercent">0%</span></div>
+        <div class="progress-bar-bg"><div class="progress-fill" id="progressFill"></div></div>
+      </div>
+
+      <div class="card">
+        <div class="question-text" id="questionText">Loading...</div>
+        <div class="options-grid" id="optionsContainer"></div>
+        <div class="explanation-panel" id="explanationBox" style="display:none;"></div>
+      </div>
+
+      <div class="nav-buttons">
+        <button id="prevBtn"><i class="fas fa-arrow-left"></i> Prev</button>
+        <button class="reset-btn" id="resetProgressBtn"><i class="fas fa-trash-alt"></i> Reset</button>
+        <button id="nextBtn">Next <i class="fas fa-arrow-right"></i></button>
+      </div>
+
+      <!-- Tabs for Analytics & Leaderboard -->
+      <div class="tabs-container">
+        <button class="tab-btn active" data-tab="quiz">📖 Quiz Mode</button>
+        <button class="tab-btn" data-tab="analytics">📊 Analytics</button>
+        <button class="tab-btn" data-tab="leaderboard">🏆 Leaderboard</button>
+      </div>
+      <div id="quizTabContent" class="tab-content active">
+        <footer>🔁 Backup/Restore saves all MCQs & user accounts | Adjustable exam timer | Save Attempt records your performance by category</footer>
+      </div>
+      <div id="analyticsTabContent" class="tab-content">
+        <div class="analytics-card" id="analyticsSummary"></div>
+        <canvas id="categoryChart" width="400" height="200" style="max-width:100%; height:auto;"></canvas>
+        <div id="recentAttempts" class="recent-attempts"></div>
+      </div>
+      <div id="leaderboardTabContent" class="tab-content">
+        <div class="leaderboard-controls">
+          <select id="leaderboardCategorySelect"></select>
+          <button id="refreshLeaderboardBtn" class="btn small-btn">Refresh</button>
+        </div>
+        <div id="leaderboardList" class="leaderboard-list"></div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- MODALS -->
+<div class="modal" id="mcqFormModal">
+  <div class="modal-content">
+    <h3 id="modalTitle"><i class="fas fa-plus-circle"></i> Add/Edit MCQ</h3>
+    <input id="formQuestion" placeholder="Question text" type="text">
+    <input id="formOpt0" placeholder="Option A" type="text">
+    <input id="formOpt1" placeholder="Option B" type="text">
+    <input id="formOpt2" placeholder="Option C" type="text">
+    <input id="formOpt3" placeholder="Option D" type="text">
+    <select id="formCorrect">
+      <option value="0">Correct: A</option>
+      <option value="1">Correct: B</option>
+      <option value="2">Correct: C</option>
+      <option value="3">Correct: D</option>
+    </select>
+    <select id="formCategory">
+      <option value="">-- Select or type new --</option>
+    </select>
+    <input id="newCategoryInput" placeholder="Or type a new category" style="margin-top: 6px;" type="text">
+    <textarea id="formExplanation" placeholder="Explanation" rows="2"></textarea>
+    <div id="formError" style="color:#f87171;"></div>
+    <button id="saveMcqBtn">💾 Save</button>
+    <button class="secondary" id="cancelFormBtn">Cancel</button>
+    <input id="editingId" type="hidden" value="-1">
+  </div>
+</div>
+
+<div class="modal" id="manageModal">
+  <div class="modal-content">
+    <h3><i class="fas fa-database"></i> Manage All MCQs</h3>
+    <div class="manage-list" id="manageListContainer">Loading...</div>
+    <button id="resetDefaultQuestionsBtn" style="background:#f59e0b; margin-top:10px;"><i class="fas fa-undo-alt"></i> Reset to Default Questions</button>
+    <button class="danger delete-all-btn" id="deleteAllMcqBtn"><i class="fas fa-trash-alt"></i> Delete ALL MCQs</button>
+    <button class="secondary" id="closeManageBtn">Close</button>
+  </div>
+</div>
+
+<script src="js/data.js"></script>
+<script src="js/app.js"></script>
+</body>
+</html>
